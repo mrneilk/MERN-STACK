@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>JavaScript programs</title>
+    <style media="screen">
+      h2 {
+        background-color: #99ffcc;
+        font-family: 'Audiowide', cursive;
+        margin-left: 20px;
+        width: 50%;
+      }
+      h3 {
+        background-color: #ff6699;
+        margin-left: 30px;
+        font-family: 'Bungee Inline', cursive;
+        width: 25%;
+      }
+      .script1{
+        margin-left: 60px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="w3-card-4 w3-cursive w3-aqua">Some programs using javascript(all variable predifined)</h1>
+    <h2>Simple Interest</h2>
+    <div class="script1">
+
+
+      <p>Principal=₹5000 <br>Rate=5% <br>Time=10 years</p>
+      <script type="text/javascript">
+        var SI;
+        SI=(10*5000*5)/100;
+        document.write("The S.I.="+SI);
+      </script>
+    </div>
+    <h2>Change The value</h2>
+    <h3>10 cm to inch</h3>
+    <div class="script1">
+
+
+      <script type="text/javascript">
+        document.write("1 inch is equal to 2.54 cm.<br>");
+        document.write("therefore 10 cm becomes: ");
+        var ininch=10/2.54;
+        document.write(ininch);
+      </script>
+    </div>
+      <h3>10℃ to ℉</h3>
+      <div class="script1">
+        <script type="text/javascript">
+          document.write("0℃ is equal to 32℉.<br>");
+          document.write("therefore 10℃ cm becomes: ");
+          var cel=10;
+          var far=(cel*(9/5))+32;
+          document.write(far+"℉");
+        </script>
+      </div>
+
+      <h3>10 Kg to pound</h3>
+      <div class="script1">
+        <script type="text/javascript">
+          document.write("1 kg is equal to 2.2046 pound.<br>");
+          document.write("therefore 10kg cm becomes: ");
+          var inkg=10;
+          var inpound=inkg*2.2046;
+          document.write(inpound+" pound");
+        </script>
+      </div>
+
+      <h3>10hp to watts</h3>
+      <div class="script1">
+        <script type="text/javascript">
+          document.write("1hp is equal to 745.7 watts.<br>");
+          document.write("therefore 10hp cm becomes: ");
+          var inhp=10;
+          var inwatts=inhp*745.7;
+          document.write(inwatts+" watts");
+        </script>
+      </div>
+
+    <!-- </div> -->
+
+       <h2>Calculate the following</h2>
+       <h3>Area of Right angled triangle</h3>
+       <div class="script1">
+       <script type="text/javascript">
+         document.write("Height = 10 cm<br>Base = 5 cm.");
+         var h=10;
+         var b=5;
+         var area=h*b*0.5;
+         document.write("<br>Area = "+area+" cm<sup>2</sup>");
+       </script>
+     </div>
+       <h3>Area of Square</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Side = 2.45 cm.");
+           var side=2.54;
+           var area=side*side;
+           document.write("<br>Area = "+area+" cm<sup>2</sup>");
+         </script>
+       </div>
+
+       <h3>Area of Circle</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Radius = 2.45 cm.");
+           var radius=2.45;
+           var PI=22/7;
+           var area=radius*radius*PI;
+           document.write("<br>Area = "+area+" cm<sup>2</sup>");
+         </script>
+       </div>
+
+       <h3>Area of Rectangle</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Length = 8 cm<br>Breadth= 6.7 cm.");
+           var breadth=6.7;
+           var length=8;
+           var area=length*breadth;
+           document.write("<br>Area = "+area+" cm<sup>2</sup>");
+         </script>
+       </div>
+
+       <h3>Volume Of Cube</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Side=4.98 cm");
+           var side=4.38;
+           var vol=side*side*side;
+           document.write("<br>Volume = "+vol+" cm<sup>3</sup>")
+         </script>
+       </div>
+
+       <h3>Volume Of Cuboid</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Length = 4.22 cm<br>Breadth = 8.12 cm<br>Height = 7 cm");
+           var l=4.22;
+           var b=8.12;
+           var h=7;
+           var vol=l*b*h;
+           document.write("<br>Volume = "+vol+" cm<sup>3</sup>")
+         </script>
+       </div>
+
+       <h3>Volume Of Sphere</h3>
+       <div class="script1">
+         <script type="text/javascript">
+           document.write("Radius = 8.45 cm");
+           var r=8.45;
+           var vol=(4/3)*PI*r*r*r;
+           document.write("<br>Volume = "+vol+" cm<sup>3</sup>")
+         </script>
+       </div>
+
+     </div>
+  </body>
+</html>
