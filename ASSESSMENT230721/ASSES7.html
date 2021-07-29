@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ASSES7.css">
+    <title>ASSESSMENT 7</title>
+  </head>
+  <body>
+    <h1>Online Job Registration Portal</h1>
+    <p>Register yourself to get latest job updates</p>
+    <hr>
+    <div class="form_div">
+      <form class="form_regis">
+        <table cellpadding="5px">
+          <tr>
+            <td><label for="Full_Name">Full Name:</label></td>
+            <td><input type="text" name="firstName" value="" placeholder="First Name" required>
+            <input type="text" name="lastname" value="" placeholder="Last Name" required></td>
+          </tr>
+          <tr>
+            <td> <label for="Address">Address:</label> </td>
+            <td> <input type="text" name="Street" value="" placeholder="Street Address" required maxlength="25" size="25">
+            <br><br> <input type="text" name="Streetadd2" value="" placeholder="Street Address Line 2" required maxlength="25" size="25">
+            <br><br> <input type="text" name="City" value="" placeholder="City" required>
+            <input type="text" name="State" value="" placeholder="State" required>
+            <br><br> <input type="text" name="Pincode" value="" placeholder="Pin code" required size="6">
+            <select class="Country" name="Country">
+              <option value="select">-Country-</option>
+              <option value="India">India</option>
+            </select>  </td>
+          </tr>
+          <tr>
+            <td> <label for="Phone">Phone Number: </label> </td>
+            <td> <input type="text" name="area code" value="" required maxlength="5" size="5" placeholder="Area Code"> - <input type="text" name="Phone" value="" placeholder="Phone" size="10" maxlength="10"> </td>
+          </tr>
+          <tr>
+            <td> <label for="Mobile">Mobile: </label> </td>
+            <td> <input type="text" name="Mobile" required placeholder="Mobile" size="16" maxlength="16" value=""></td>
+          </tr>
+          <tr>
+            <td> <label for="email">Email: </label> </td>
+            <td> <input type="email" name="Email" value="" placeholder="ex: myname@example.com" required> </td>
+          </tr>
+          <tr>
+            <td> <label for="AOI">Area of Interest: </label> </td>
+            <td> <input type="checkbox" name="Account_manager" value="Account Manager"> Account Manager <br>
+             <input type="checkbox" name="Administrator" value="Administrator"> Administrator <br>
+             <input type="checkbox" name="Human Resources" value="Human Resources"> Human Resources <br>
+             <input type="checkbox" name="Sales" value="Sales"> Sales <br>
+             <input type="checkbox" name="IT" value="IT"> Information Technology</td>
+          </tr>
+          <tr>
+            <td> <label for="NOF">Desired Nature of Job: </label> </td>
+            <td> <input type="radio" name="NOF" value="FullTime"> Full time <br>
+            <input type="radio" name="NOF" value="PartTime"> Part time  </td>
+          </tr>
+          <tr>
+            <td> <label for="skill">Skill Level:</label> </td>
+            <td> <select class="skill" name="SKILLS">
+                <option value="0">-select-</option>
+                <option value="1">Undergraduate</option>
+                <option value="2">Graduate</option>
+                <option value="3">Post-graduate</option>
+                <option value="4">Diploma/Technical</option>
+            </select> </td>
+          </tr>
+          <tr>
+            <td> <label for="cover">Cover Letter:</label> </td>
+            <td> <textarea name="" value="" rows="4" cols="50" maxlength="450" placeholder="Describe yourself in brief(max. 450 characters)"></textarea> </td>
+          </tr>
+          <tr>
+            <td><label for="Resume">Resume: </label></td>
+            <td> <input type="file" name="" value=""> </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>  <input type="submit" name="Submit" value="Submit">
+              <input type="reset" name="Reset" value="Reset"></td>
+          </tr>
+        </table>
+
+      </form>
+    </div>
+  </body>
+</html>
