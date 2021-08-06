@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment22_25</title>
+    <script src="ASSESS22_25.js"></script>
+</head>
+<body>
+    <h1 class="w3-center">Assessment 22 to 25</h1>
+    <div class="w3-center" style="display: flex; justify-content: center;">
+        <div class="input_div w3-card-4" >
+            <header class="w3-container w3-aqua">
+                Enter Data
+            </header>
+            <div class="w3-container">
+                <label for="m_value">First Number:</label>&ensp;
+                <input type="text" name="m_value" id="m_val" size="5">
+                <br><br>
+                <label for="n_vakue">Second Number:</label>&ensp;
+                <input type="text" name="n_value" id="n_val" size="5" style="margin-bottom: 2px;">
+            </div>
+        </div>
+        <div class="bi=utton_in w3-card-4" style=" margin-left: 10px; width: auto; text-align: center;">
+            <button style="margin-top: 5px;" onclick="printodd()">ODD Numbers</button>
+            <br>
+            <button style="margin-top: 5px;" onclick="printeven()">EVEN Numbers</button>
+            <br>
+            <button style="margin-top: 5px;" onclick="printall()">ALL Numbers</button>
+            <br>
+            <button style="margin-top: 5px;margin-bottom: 5px;" onclick="printtwofive()">Divisible By 2 and 5</button>
+        </div>
+    </div>
+    
+    <br>
+    <div class="result w3-card-4" style="width: 500px; margin-left: auto; margin-right: auto;">
+        <h2 class="w3-center w3-khaki"> RESULT </h1>
+            <p style="text-align: center;">
+                <span id="resultfinal"></span>
+            </p>
+    </div>
+</body>
+</html>
