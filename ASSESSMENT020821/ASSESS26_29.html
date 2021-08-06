@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSESSMENT 26 to 29</title>
+    <script src="myjs.js"></script>
+  
+</head>
+<body>
+    <p id="wel"></p>
+    <script>
+        var user_name = prompt("Enter name","Enter Name");
+        document.getElementById("wel").innerHTML="Hello "+user_name;
+    </script> 
+    <button onclick="checkfun()">Button 1</button>  
+    <button onclick="getinput()">Button 2</button> 
+    <div class="ass16">
+        <h1>ASSESSMENT 16:Simple Calculator</h1>
+            Enter Number 1:
+            <input type="text" name="num1" id="num_1">
+            <br><br>
+            Enter Number 2:
+            <input type="text" name="num1" id='num_2'>
+            <br><br>
+            <button onclick="Add()">+</button>
+            <button onclick="Sub()">-</button>
+            <button onclick="Mul()">*</button>
+            <button onclick="Div()">/</button>
+            Result: <span id="result"></span>
+    </div> 
+    <div class="ass29">
+        <h3>Multiplication tables</h3>
+        <label for="options">Select one number</label>
+        &ensp;
+        <select name="options" id="num_op">
+            <option value="se">-select-</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button onclick="funcmul()">Generate Table</button>
+        <br>
+        <p class="w3-card-4" style="width: 20px; margin-left: 170px;">
+            <span id="paratable"></span>
+        </p>
+       
+    </div>
+</body>
+</html>
